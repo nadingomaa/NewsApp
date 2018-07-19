@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <EditTextPreference
+        android:key="@string/settings_topic_key"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:inputType="textPersonName"
+        android:title="@string/settings_topic_label" />
+    <EditTextPreference
+        android:key="@string/settings_section_key"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:inputType="textPersonName"
+        android:title="@string/settings_section_label" />
+</PreferenceScreen>
